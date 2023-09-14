@@ -61,7 +61,8 @@ class Login extends Component {
     }
     showRegister = () => {
         this.setState({
-            isLogin: !this.state.isLogin
+            isLogin: !this.state.isLogin,
+            errMessage: ""
         })
     }
 
@@ -103,7 +104,10 @@ class Login extends Component {
 
                 this.setState({
                     errCode: data.data.userData.errCode,
-                    errMessage: data.data.userData.errMessage
+                    errMessage: data.data.userData.errMessage,
+                    username: "",
+                    password: "",
+                    RePassword: "",
 
                 })
 

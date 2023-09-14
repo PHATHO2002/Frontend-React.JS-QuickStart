@@ -22,10 +22,14 @@ const handlerApiDeleteUser = async (id) => {
 const handlerApiUpdateUser = async (data) => {
     return await axios.post('api/update-user', data)
 }
+const handlerApiCreateUser = async (data) => {
+    return await axios.post('api/create-user', data)
+}
 export default {
     handlerApi: handlerApi,
     handlerApiRegiSter: handlerApiRegiSter,
     handlerApiGetUsers: handlerApiGetUsers,
     handlerApiDeleteUser: handlerApiDeleteUser,
-    handlerApiUpdateUser: handlerApiUpdateUser
+    handlerApiUpdateUser: handlerApiUpdateUser,
+    handlerApiCreateUser: handlerApiCreateUser
 };
