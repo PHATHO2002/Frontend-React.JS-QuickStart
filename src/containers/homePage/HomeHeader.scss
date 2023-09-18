@@ -1,0 +1,89 @@
+@import "../../styles/common.scss";
+
+.home-header-container {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $colormain;
+    color: $common-text-color;
+    padding: 20px 50px;
+
+    a {
+        text-decoration: none;
+        color: $common-text-color;
+    }
+
+    position: relative;
+
+    .logo {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+
+        .nav {
+            font-size: 30px;
+            margin-right: 5px;
+        }
+    }
+
+    .list-service {
+        list-style-type: none;
+        text-align: center;
+        display: flex;
+        padding: 0;
+        margin: 0;
+
+        li {
+
+            padding: 0 20px;
+
+            p {
+
+                font-weight: bold;
+                font-size: 12px;
+                margin: 0;
+            }
+
+            span {
+
+                opacity: 0.9;
+                font-size: 10px;
+                display: block;
+                margin: 0;
+            }
+        }
+
+        li:hover {
+            cursor: pointer;
+        }
+
+
+
+    }
+
+    .suport {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+
+        .phone {
+            opacity: 0.8;
+        }
+    }
+
+    .login {
+        background-color: $common-text-color ;
+        padding: 0 20px;
+
+        a {
+
+            color: $colormain ;
+        }
+
+    }
+
+    .login:hover {
+        opacity: 0.8;
+    }
+}

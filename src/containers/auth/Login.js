@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { push } from "connected-react-router";
+import { path } from '../../utils';
+import { Link } from 'react-router-dom';
+import * as actions from "../../store/actions";
+import { KeyCodeUtils, LanguageUtils } from "../../utils";
 
-import * as actions from "../store/actions";
-import { KeyCodeUtils, LanguageUtils } from "../utils";
-
-import userIcon from '../../src/assets/images/user.svg';
-import passIcon from '../../src/assets/images/pass.svg';
+// import userIcon from '../../src/assets/images/user.svg';
+// import passIcon from '../../src/assets/images/pass.svg';
 import './Login.scss';
 import { FormattedMessage } from 'react-intl';
 
-import adminService from '../services/adminService';
-import userService from '../services/userService'
+// import adminService from '../services/adminService';
+import userService from '../../services/userService'
 class Login extends Component {
     constructor(props) {
         super(props);
@@ -158,7 +159,9 @@ class Login extends Component {
                             <button onClick={() => this.handlerLogin()} className='btn' type="submit">Login </button>
 
 
-                            <button type="button" className="cancelbtn ">Cancel</button>
+                            <Link to={path.HOME_PAGE}>
+                                <button type="button" className="cancelbtn ">Cancel</button>
+                            </Link>
                             <p>you dont have an account <a href='#' onClick={() => { this.showRegister() }}>Register</a> </p>
 
 
@@ -216,7 +219,10 @@ class Login extends Component {
 
                             </div>
                             <button onClick={() => this.handlerRegister()} className='btn' type="submit">register </button>
-                            <button type="button" className="cancelbtn ">Cancel</button>
+
+                            <Link to={path.HOME_PAGE}>
+                                <button type="button" className="cancelbtn ">Cancel</button>
+                            </Link>
                             <p>you have an account <a href='#' onClick={() => { this.showRegister() }}>login</a> </p>
                         </div >
                     </div >
