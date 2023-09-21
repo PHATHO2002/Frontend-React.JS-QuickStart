@@ -1,4 +1,28 @@
 {
+    "homeHeader": {
+        "specialist": "specialist",
+        "searchDoctor": "Search doctor",
+        "HealthFacilities": " Health Facilities",
+        "ChooseClinic": "Choose Clinic",
+        "Doctor": "Doctor",
+        "ChooseDoctor": "Choose Doctor",
+        "ExaminationPackage": "Examination Package",
+        "GeneralExamination": "General Examination",
+        "Suport": "Suport",
+        "Login": "Login"
+    },
+    "HomeBody": {
+        "MEDICALFOUNDATION": "MEDICAL FOUNDATION",
+        "COMPREHENSIVEHEALTHCARE": "COMPREHENSIVE HEALTH CARE",
+        "FindReasonforExamination": "Find Reason for Examination",
+        "Examination": "Examination",
+        "remote": "remote",
+        "General": "General",
+        "Test": "Test ",
+        "Medicine": "Medicine",
+        "Health": "Health",
+        "spirit": "spirit"
+    },
     "common": {
         "add": "Add",
         "edit": "Edit",

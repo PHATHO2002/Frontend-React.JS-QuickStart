@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { path } from '../../utils';
-import HomeHeader from './HomeHeader';
+import HomeHeader from './section/HomeHeader';
+import HomeBody from './section/HomeBody';
 class HomePage extends Component {
     constructor(props) {
         super(props);
@@ -18,8 +19,8 @@ class HomePage extends Component {
         return (
             <div className='home-container'>
                 <HomeHeader></HomeHeader>
+                <HomeBody></HomeBody>
 
-                <div>this is my home boys</div>
 
             </div>
         );

@@ -1,4 +1,28 @@
 {
+    "homeHeader": {
+        "specialist": "Chuyên Khoa",
+        "searchDoctor": "Tìm bác sĩ theo chuyên khoa",
+        "HealthFacilities": " Cơ Sở Y Tế",
+        "ChooseClinic": "Chọn bệnh viện phòng khám",
+        "Doctor": "Bác Sĩ",
+        "ChooseDoctor": "Chọn bác sĩ giỏi",
+        "ExaminationPackage": "Gói khám",
+        "GeneralExamination": "Khám sức khỏe tổng quát",
+        "Suport": "Hỗ Trợ",
+        "Login": "Đăng Nhập"
+    },
+    "HomeBody": {
+        "MEDICALFOUNDATION": "NỀN TẢNG Y TẾ",
+        "COMPREHENSIVEHEALTHCARE": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "FindReasonforExamination": "Tìm lý do khám",
+        "Examination": "Khám",
+        "remote": "Từ xa",
+        "General": "Tổng quát",
+        "Test": "Xét nghệm ",
+        "Medicine": "Y học",
+        "Health": "Sức Khoẻ",
+        "spirit": "tinh thần"
+    },
     "common": {
         "add": "Thêm",
         "edit": "Sửa",

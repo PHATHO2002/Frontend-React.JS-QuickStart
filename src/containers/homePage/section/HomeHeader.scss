@@ -1,4 +1,6 @@
-@import "../../styles/common.scss";
+@import "../../../styles/styles.scss";
+
+
 
 .home-header-container {
     z-index: 99;
@@ -13,6 +15,12 @@
         text-decoration: none;
         color: $common-text-color;
     }
+
+    a:hover {
+        color: inherit;
+
+    }
+
 
     position: relative;
 
@@ -55,7 +63,9 @@
         }
 
         li:hover {
+            color: $common-text-color;
             cursor: pointer;
+            opacity: 0.8;
         }
 
 
@@ -72,14 +82,26 @@
         }
     }
 
+    .changeLanguage {
+        display: flex;
+
+        div {
+            padding: 0 5px;
+            font-weight: bold;
+        }
+
+        div:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+
+    }
+
     .login {
         background-color: $common-text-color ;
         padding: 0 20px;
-
-        a {
-
-            color: $colormain ;
-        }
+        color: $colormain ;
 
     }
 
